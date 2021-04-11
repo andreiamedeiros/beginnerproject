@@ -1,0 +1,451 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: width;
+
+}
+p {
+    color: #4F4F4F;
+}
+ul {
+    list-style: none;
+}
+h2, h3 {
+    color: #696969;
+    margin: 0 0 15px 0;
+}
+a:link {
+  color: #191970;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.topo {
+    height: 180px;
+    
+}
+.topoint {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.topoint .topoesq {
+    width: 60%;
+    height: 180px;
+    float: left;
+    background-color: #DCDCDC;
+}
+.topoint .topoesq .nome {
+    margin: 30px 40px;
+}
+.topoint .topoesq .nome h1 {
+    color: #4682B4;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.topoint .topoesq .nome h2 {
+    color: #4F4F4F;
+    font-size: 20px;
+    margin: 0;
+}
+.topoint .topodir {
+    height: 180px;
+    width: 40%;
+    float: right;
+    background-color: #4682B4;
+}
+
+.topoint .topodir img {
+    margin: 30px 60px 60px 60px;
+    display: absolute;
+    border: 4px solid #4682B4;
+}
+.conteudo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.contatotopo {
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+}
+.contatotopo ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.contatotopo li {
+    float: left;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    font-size: 10px;
+}
+.contatotopo img {
+    margin-top: 10px;
+    margin-right: 5px; 
+    float: left;
+}
+.contatotopo p {
+    margin-top: 3px;
+ 
+    padding: 0;
+    float: right; 
+}   
+.conteudotopo {
+    height: 120px;
+    border-bottom: 2px dotted #4682B4;
+    margin-bottom: 20px; 
+}
+
+.objetivo {
+    float: left;
+    width: 60%;
+    margin-top: 20px; 
+}
+.texto {
+    padding: 0 10px 0 10px;
+    text-align: justify;
+}
+.social {
+    margin-top: 50px; 
+    float: right;
+    width: 40%;
+}
+.social ul {
+    margin: 0px 0 0 30px;
+    padding: 0;
+}
+.social li {
+    float: left;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    font-size: 10px; 
+}
+.social p {
+    margin-top: 3px;
+    padding: 0;
+    float: right; 
+}
+.social h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #4F4F4F;
+    font-size: 13px;
+}
+.social img {
+    margin-top: 10px;
+    margin-right: 5px; 
+    float: left;
+}   
+.conteudomeio {
+    min-height: 140px;
+    margin-bottom: 20px;
+    display: flex;
+    border-bottom: 2px dotted #4682B4;
+}
+.colunaesq {
+    width: 60%;
+    float: left;
+}   
+.colunadir {
+    width: 40%;
+    float: right;
+}
+
+.texto ul {
+    margin-bottom: 15px;
+    padding: 0;
+}
+.texto li {
+    color: #4F4F4F;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.texto img {
+    margin-right: 5px; 
+}
+.periodo {
+    width: 20%;
+    float: left;
+}
+.periodo li {
+    margin: 0;
+}
+.cargo {
+    width: 80%;
+    float: right;
+    text-align: justify;
+}
+.cargo h3, h4 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.rodape {
+    background-color: #DCDCDC;
+    padding: 5px;
+}
+.rodape p {
+    text-align: center;
+    color: #363636;
+    font-size: 10px;
+}
+/* DESIGN RESPONSIVO - TABLET*/
+@media only screen and (min-width: 500px) and (max-width: 800px){
+
+    .topo {
+        margin: auto;
+        width: 500px;
+    }
+    .topoint .topodir img {
+        margin: 6px;
+        display: absolute;
+        border: 4px solid #4682B4;
+    }
+    .topoint .topoesq .nome {
+        margin: 25px 40px;
+    }
+    .topoint .topoesq .nome h1 {
+        color: #4682B4;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .topoint .topoesq .nome h2 {
+        color: #4F4F4F;
+        font-size: 15px;
+        margin: 0;
+    }
+    .contatotopo ul {
+        height: 60px;
+        margin: 0 0 0 20px;
+    }
+
+    .contatotopo li {
+        float: none;
+        line-height: 20px;
+        width: 180px;
+        margin: 0;
+        padding: 0;
+    }
+    .contatotopo img {
+        margin: 0 5px 0 0;
+        padding: 0;
+    }
+    .contatotopo p {
+        margin: 0 0 2px 0;
+        padding: 0;
+        float: none;
+    }
+    .social {
+        margin: 20px 0 10px 0; 
+    }
+    .social ul {
+        margin: 20px 0 0 50px;
+        padding: 0;
+    }
+    
+    .social li {
+        float: none;
+        line-height: 20px;
+        margin-left: 5px;
+        margin-right: 5px; 
+        font-size: 10px; 
+
+    }
+    .social p {
+        margin-top: 2px;
+        padding: 0;
+        float: none; 
+    }
+    .social img {
+        margin: 0 5px 0 0;
+        padding: 0;    
+    }
+    .conteudo {
+        width: 500px;
+    }
+    .conteudotopo {
+        min-height: 160px;
+    }
+    .texto {
+        width: 500px;
+        margin-right: 5px; 
+    }
+    .objetivo .texto {
+        width: 270px;
+    }
+    .colunaesq .texto  {
+            width: 270px;
+    } 
+    .colunadir .texto {
+            width: 190px;
+            margin: 0;
+            padding: 0;
+          
+    }    
+    .rodape {
+        width: 500px;
+        padding: 5px 0 10px 0;
+    }
+    .rodape p {
+        margin-bottom: 0px;
+    }
+
+}
+
+/* DESIGN RESPONSIVO - celular*/
+@media only screen and (min-width: 250px) and (max-width: 499px){
+    .topo {
+        margin: auto;
+        width: 250px;
+    }
+    .topoint .topodir {
+        float: none;
+        width: 100%;
+        height: 165px;
+
+    }
+    .topoint .topodir img {
+        border: 4px solid #4682B4;
+        margin: 10px 0 0 32px;
+
+    }
+    .topoint .topoesq {
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: 165px;
+    }
+    .topoint .topoesq .nome {
+        margin:0;
+        padding: 20px 0 10px 20px;
+    }
+    .topoint .topoesq .nome h1 {
+        color: #4682B4;
+        font-size: 25px;
+        margin: 0;
+    }
+    .topoint .topoesq .nome h2 {
+        color: #4F4F4F;
+        font-size: 15px;
+        margin: 0;
+    }
+    .contatotopo {
+        height: 80px;
+    }
+    .contatotopo li {
+        height: 20px;
+    }
+ 
+    /* ------ */
+    .objetivo {
+        float: none;
+        position: absolute;
+        margin-top: 80px; 
+    }
+
+    .social {
+        margin: 0px 0 10px 0;
+        width: 250px;  
+        float: none; 
+        position: absolute;
+    }
+    .social ul {
+        margin: 10px 0 0 5px;
+        padding: 0;
+    }
+    
+    .social li {
+        float: left;
+        line-height: 30px;
+        margin-left: 0px;
+        margin-right: 0px; 
+        font-size: 10px; 
+        width: 80px;
+    }
+    .social p {
+        margin-top: 0px;
+        padding: 0;
+        float: none; 
+    }
+    .social img {
+        margin: 5px 5px 0 0;
+        padding: 0;    
+    }
+    .conteudo {
+        width: 250px;
+        margin-top: 200px;
+    }
+    .conteudotopo {
+        height: 220px;
+        margin-bottom: 10px; 
+    }
+    .texto {
+        width: 230px;
+        margin-right: 5px; 
+    }
+    .objetivo .texto {
+        width: 230px;
+    }
+    .conteudomeio {
+        width: 230px;
+        display: table;
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .conteudomeio .texto {
+        width: 230px;
+        border-bottom: 2px dotted #4682B4;
+        margin: 5px 0 10px 0;
+    }
+    .conteudomeio .colunaesq {
+        float: none;
+        width: 100%;
+
+    }
+     .conteudomeio .colunadir {
+        float: none;
+        width: 100%;
+        margin-top: 15px; 
+    }
+  
+    .conteudomeio .periodo {
+        float: none;
+        width: 100%;
+    }
+    .conteudomeio .periodo li {
+        width: 110px;
+        font-size: 12px;
+        display: inline;
+    }
+    
+    .conteudomeio .cargo {
+        float: none;
+        width: 100%;
+    }
+    .rodape {
+        width: 250px;
+        padding: 5px 0 10px 0;
+    }
+    .rodape p {
+        margin-bottom: 0px;
+    }
+  
+}
