@@ -1,2 +1,2 @@
 # beginnerproject
-Meu primeiro projeto como iniciante Frontend. Criação de um Currículo Online usando Html/Css e layout responsivo. 
+Meu primeiro projeto como iniciante FrontEnd. Criação de um Currículo Online usando as linguagens HTML/CSS e tornando o layout responsivo. 
